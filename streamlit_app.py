@@ -2,7 +2,7 @@
 import streamlit as st 
 
 def main() : 
-  st.write('Minimal Example')
+  st.write('Minimal Example By Edison Marpaung')
 
   st.header('This is Header')
   st.subheader('This is SubHeader')
