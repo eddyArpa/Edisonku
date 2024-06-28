@@ -26,6 +26,9 @@ def main() :
   st.write('Contoh dataframe')
   st.dataframe(house)
 
+  st.write('Metrics')
+  st.metric(label="Temperature", value="70 °F", delta="1.2 °F")
+
   
 
 if __name__ == '__main__' : 
