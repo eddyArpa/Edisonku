@@ -19,7 +19,7 @@ import pandas as pd
 import requests
 from st_aggrid import AgGrid
 #baca dataframe dari file csv 
-titanic = pd.read_csv('/house_clean.csv')
+titanic = pd.read_csv('house_clean.csv')
 #read json file dari data covid 
 flight_passanger_api = requests.post('https://forecastpassengerapi.herokuapp.com/forecast_timeseries',json={
   "month_limit": "2020-01-01",
