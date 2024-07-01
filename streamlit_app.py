@@ -119,7 +119,7 @@ def main() :
 # Insert containers separated into tabs:
 tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
 tab1.write("Ini adalah Tab 1")
-tab2.write("Ini adalah Tab 2"
+tab2.write("Ini adalah Tab 2")
 
 if __name__ == '__main__' : 
   main()
