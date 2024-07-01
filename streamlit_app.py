@@ -12,6 +12,8 @@ house = pd.read_csv('house_clean.csv')
 #   "month_limit": "2020-01-01",
 #   "window_size": 12
 # }).json()
+house_chart = pd.read_csv('house_clean.csv', usecols=['id','price'])
+
 
 def main() : 
 
